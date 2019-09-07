@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on FOSSAssam</title>
+    <link>http://example.org/post/</link>
+    <description>Recent content in Posts on FOSSAssam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 07 Sep 2019 16:59:21 +0530</lastBuildDate>
+    
+	<atom:link href="http://example.org/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TensorFlow All Around - Guwahati</title>
+      <link>http://example.org/post/tf-ghy/</link>
+      <pubDate>Sat, 07 Sep 2019 16:59:21 +0530</pubDate>
+      
+      <guid>http://example.org/post/tf-ghy/</guid>
+      <description>Registration Link: bit.ly/tf-ghy-rgu
+ Hello everyone! 🎊 Good news for every computer science student and machine learning enthusiast in Guwahati. Very excited to announce that we&amp;rsquo;ll be organizing TensorFlow All Around in Guwahati.
+TensorFlow All Around is a global series of community-led events, where developers can learn the essentials and best practices of TensorFlow.
+Join us for the TensorFlow All-Around event and get hands-on experience with TensorFlow together! After this event you can keep developing your skills at home by completing all the recommended codelab, tutorials and videos.</description>
+    </item>
+    
+  </channel>
+</rss>
