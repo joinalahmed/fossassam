@@ -8,6 +8,8 @@ slug: "tf-ghy"
 
 Hello everyone! 🎊 Good news for every computer science student and machine learning enthusiast in Guwahati. Very excited to announce that we'll be organizing TensorFlow All Around in Guwahati. 
 
+![](/poster.jpg)
+
 TensorFlow All Around is a global series of community-led events, where developers can learn the essentials and best practices of TensorFlow.
 
 Join us for the TensorFlow All-Around event and get hands-on experience with TensorFlow together! After this event you can keep developing your skills at home by completing all the recommended codelab, tutorials and videos.
@@ -29,4 +31,5 @@ Date: 14th September, 2019 (Saturday)
 ### Agenda
 Will be updated very soon.
 
-If you have any questions, you can reachout to me on twitter [@geekodour](https://twitter.com/geekodour) else directly contact the numbers mentioned in the poster above.
+### More information
+If you have any questions, directly contact at `(+91)9742807738` or email `joinalahmed@gmail.com`
