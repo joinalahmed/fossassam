@@ -24,12 +24,12 @@ Fill up this [google form](http://bit.ly/tf-ghy-rgu) to complete your registrati
 ### Venue and Dates
 Venue: [Royal Global University, Guwahati](https://www.google.co.in/maps?q=rgu+guwahati&um=1&ie=UTF-8&sa=X&ved=0ahUKEwiMxPWR0b7kAhUWbisKHeW5DJUQ_AUIFCgD)
 
-Time: 11am to 3pm
+Time: 10am to 3pm
 
 Date: 14th September, 2019 (Saturday)
 
 ### Agenda
-Will be updated very soon.
+![](/ag.jpg)
 
 ### More information
 If you have any questions, directly contact at `(+91)9742807738` or email `joinalahmed@gmail.com`
