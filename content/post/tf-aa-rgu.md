@@ -4,15 +4,17 @@ date: 2019-09-30T21:46:52+05:30
 draft: false
 ---
 
-The FossAssam team along with the speakers for the event had a great time organizing [Tensorflow All Around Guwahati](/post/tf-ghy/) on 14th September'19 at Royal Global University. We had around ~50 enthusiastic participants out of ~100 that registered.
+![aud](/tfrgu/aud.jpg)
+The FossAssam team along with the speakers for the event had a great time organizing [Tensorflow All Around Guwahati](/post/tf-ghy/) on 14th September'19 at Royal Global University. We had around ~50 enthusiastic participants out of ~100 that registered. Thanks to RGU for providing an excellent venue for the event.
 
-**Talk links:**
-
-- [skk's talk: Flowing Tensors with TensorFlow](https://docs.google.com/presentation/d/1zLmBZc6WKSix8PBIMXHkqxR7g8bODdhc20pBU5-9Dq4/edit?usp=sharing)
 
 ![Group Photo](/tfrgu/tf-gp.jpg)
 
 The goal was to introduce newcomers to Machine Learning and Tensorflow and show what it is like to use Machine learning in the Industry for people who are already working with these concepts and technologies.
+
+![vc](/tfrgu/vc.jpg)
+Prof. S.P Singh Inagurating the event.
+
 
 ![Rajat](/tfrgu/rj.jpg)
 
@@ -36,3 +38,7 @@ The final talk for the event was delivered by [joinalahmed](https://github.com/j
 ![team](/tfrgu/team.jpg)
 Finally, we had an open discussion about anything the participants wanted to talk about and got some awesome feedback. That’s when we called it a day. :)
 
+
+**Talk links:**
+
+- [skk's talk: Flowing Tensors with TensorFlow](https://docs.google.com/presentation/d/1zLmBZc6WKSix8PBIMXHkqxR7g8bODdhc20pBU5-9Dq4/edit?usp=sharing)
