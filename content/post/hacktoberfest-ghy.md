@@ -12,9 +12,7 @@ draft: false
 
 ---
 
-![](/hof-ghy-poster.png)
-
-Hello everyone! 🎊 Welcome to Hacktoberfest Guwahati. This page is dedicated for describing the agenda of the offline Hacktoberfest Guwahati meetup on 19th October (Saturday).
+Hello everyone! 🎊 Welcome to Hacktoberfest Guwahati. This page is dedicated for describing the agenda of the offline Hacktoberfest Guwahati meetup on 19th October (Saturday) to be organized at Royal Global University, Guwahati.
 
 Here's a short intro about Hacktoberfest for who are not familiar. If you already know what this is all about, directly skip to the **Agenda** section:
 
@@ -44,3 +42,4 @@ For more info see this: [Hacktoberfest Guwahati Homepage](https://hacktoberfest.
 
 Do share about this event as much as you can! 😄
 
+![](/hof-ghy-poster.png)
