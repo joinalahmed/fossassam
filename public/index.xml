@@ -6,10 +6,22 @@
     <description>Recent content on FOSSAssam</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Sep 2019 21:46:52 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 16 Oct 2019 10:44:38 +0530</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hacktoberfest Ghy 2019</title>
+      <link>/post/hacktoberfest-ghy/</link>
+      <pubDate>Wed, 16 Oct 2019 10:44:38 +0530</pubDate>
+      
+      <guid>/post/hacktoberfest-ghy/</guid>
+      <description>Registration link: bit.ly/hof-ghy-reg
+Hello everyone! 🎊 Welcome to Hacktoberfest Guwahati. This page is dedicated for describing the agenda of the offline Hacktoberfest Guwahati meetup on 19th October (Saturday).
+Here&amp;rsquo;s a short intro about Hacktoberfest for who are not familiar. If you already know what this is all about, directly skip to the Agenda section:
+Intro Students and professionals of all levels are welcome! This is a month long celebration of OpenSource in the form of a challenge called Hacktoberfest.</description>
+    </item>
     
     <item>
       <title>Wrapping up TF All Around Guwahati</title>
