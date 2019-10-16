@@ -6,9 +6,13 @@ draft: false
 
 ---
 
-Registration link: [bit.ly/hof-ghy-reg](http://bit.ly/hof-ghy-reg)
+- Registration link: [bit.ly/hof-ghy-reg](http://bit.ly/hof-ghy-reg)
+- Hacktoberfest link: [hacktoberfest.digitalocean.com/](https://hacktoberfest.digitalocean.com/)
+- [Code of Conduct](https://docs.google.com/document/d/1gFKOhyUqMZzrZcbq8A_TpO5x9J9HK6agv70awCH8pyI/edit)
 
 ---
+
+![](/hof-ghy-poster.png)
 
 Hello everyone! 🎊 Welcome to Hacktoberfest Guwahati. This page is dedicated for describing the agenda of the offline Hacktoberfest Guwahati meetup on 19th October (Saturday).
 
@@ -19,7 +23,7 @@ Students and professionals of all levels are welcome! This is a month long celeb
 
 You're supposed to make 4 PRs to a GitHub repository anytime between Oct 1 and Oct 31 to complete the challenge.
 
-Don't know what Opensource, PR, Repository, GitHub, mean? perfect! That means you're going to lean a lot! The way this will work for you is simple: 
+Don't know what Opensource, PR, Repository, GitHub, mean? perfect! That means you're going to lean a lot! The way this will work for you is simple:
 
 For more info see this: [Hacktoberfest Guwahati Homepage](https://hacktoberfest.fossassam.tech)
 
@@ -40,4 +44,3 @@ For more info see this: [Hacktoberfest Guwahati Homepage](https://hacktoberfest.
 
 Do share about this event as much as you can! 😄
 
-![](/hof-ghy-poster.png)
