@@ -36,8 +36,7 @@ For more info see this: [Hacktoberfest Guwahati Homepage](https://hacktoberfest.
 
 **1:30PM - 3:30PM** : Hands on Hacktoberfest Hacking! - Students find repositories to contribute to, volunteers help them contribute.
 
-
-**3:30PM - 4:00PM** : Closing notes and Opportunities in Open Source
+**3:30PM - 4:00PM** : QA, closing notes and Opportunities in Open Source.
 
 Do share about this event as much as you can! 😄
 
