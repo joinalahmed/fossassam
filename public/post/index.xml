@@ -6,10 +6,22 @@
     <description>Recent content in Posts on FOSSAssam</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 16 Oct 2019 10:44:38 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 17 Oct 2019 12:57:13 +0530</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>AMA with Ashris Choudhary - Hacktoberfest&#39;19</title>
+      <link>/post/ama-ashris/</link>
+      <pubDate>Thu, 17 Oct 2019 12:57:13 +0530</pubDate>
+      
+      <guid>/post/ama-ashris/</guid>
+      <description>This year during Hactoberfest we decided to run a month-long study group in the form a WhatsApp group.
+I read the following somewhere, this makes perfect sense to be applied to this study group:
+ The formula to induce motivation, in my experience, starts with action, which sparks inspiration, which sparks motivation, which leads to action, and the loop continues.
+ So we decided to have WhatsApp AMAs in the group, which turned out to be a super fine idea.</description>
+    </item>
     
     <item>
       <title>Hacktoberfest Ghy 2019</title>
