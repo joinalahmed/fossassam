@@ -2,6 +2,7 @@
 title: "2nd Meet - Hacktoberfest Ghy 2019"
 date: 2019-10-23T19:02:31+05:30
 draft: false
+slug: hof-2nd-meet
 ---
 
 ---
