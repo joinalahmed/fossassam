@@ -12,11 +12,11 @@ slug: hof-2nd-meet
 
 ---
 
-The first meetup was a success, so we're following up with another meetup on **(26th October 2019, Saturday)**, will be posting a blogpost describing the first meeup very soon!
+The first meetup was a success, so we're following up with another meetup on **(26th October 2019, Saturday) at GUIST**, will be posting a blogpost describing the first meeup very soon!
 
 ![](/group-ghof-1.jpg)
 
-Hello everyone! 🎊 Welcome to the **2nd Meet** of Hacktoberfest Guwahati. This page is dedicated for describing the agenda of the offline Hacktoberfest Guwahati meetup on 26th October (Saturday) to be organized at Institute of Science & Technology (GUIST), Guwahati.
+Hello everyone! 🎊 Welcome to the **2nd Meet** of Hacktoberfest Guwahati. This page is dedicated for describing the agenda of the offline Hacktoberfest Guwahati meetup on **26th October (Saturday)** to be organized at **Institute of Science & Technology (GUIST), Guwahati.**
 
 Here's a short intro about Hacktoberfest for who are not familiar. If you already know what this is all about, directly skip to the **Agenda** section:
 
