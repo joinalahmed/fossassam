@@ -4,7 +4,7 @@ date: 2019-11-05T14:30:40+05:30
 draft: false
 ---
 
-[Hacktoberfest](https://hacktoberfest.digitalocean.com) was started by [Digital Ocean]() 3 years ago but it took a while for Guwahati to organize an offline event to promote opensource among students and professionals alike.
+[Hacktoberfest](https://hacktoberfest.digitalocean.com) was started by [Digital Ocean](https://dgitalocean.com) 3 years ago but it took a while for Guwahati to organize an offline event to promote opensource among students and professionals alike.
 
 Nonetheless, it was finally attempted this year by a loose bunch of opensource enthusiasts, some of them happen to be part of the [fossassam](https://jshd.com) community, some are students, some are working but all are learners.
 
