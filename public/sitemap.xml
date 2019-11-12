@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/post/hof-2nd-meet/</loc>
-    <lastmod>2019-10-23T19:02:31+05:30</lastmod>
+    <loc>/</loc>
+    <lastmod>2019-11-05T14:30:40+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2019-10-23T19:02:31+05:30</lastmod>
+    <loc>/post/wrapping-hacktoberfest2019ghy/</loc>
+    <lastmod>2019-11-05T14:30:40+05:30</lastmod>
   </url>
   
   <url>
     <loc>/post/</loc>
+    <lastmod>2019-11-05T14:30:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/hof-2nd-meet/</loc>
     <lastmod>2019-10-23T19:02:31+05:30</lastmod>
   </url>
   

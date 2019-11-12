@@ -6,10 +6,21 @@
     <description>Recent content on FOSSAssam</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 Oct 2019 19:02:31 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 05 Nov 2019 14:30:40 +0530</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Making friends and OpenSource at Hacktoberfest 2019 Guwahati</title>
+      <link>/post/wrapping-hacktoberfest2019ghy/</link>
+      <pubDate>Tue, 05 Nov 2019 14:30:40 +0530</pubDate>
+      
+      <guid>/post/wrapping-hacktoberfest2019ghy/</guid>
+      <description>Hacktoberfest was started by [Digital Ocean]() 3 years ago but it took a while for Guwahati to organize an offline event to promote opensource among students and professionals alike.
+Nonetheless, it was finally attempted this year by a loose bunch of opensource enthusiasts, some of them happen to be part of the fossassam community, some are students, some are working but all are learners.
+The idea was to run a WhatsApp study group and organize two meetups.</description>
+    </item>
     
     <item>
       <title>2nd Meet - Hacktoberfest Ghy 2019</title>
@@ -17,7 +28,7 @@
       <pubDate>Wed, 23 Oct 2019 19:02:31 +0530</pubDate>
       
       <guid>/post/hof-2nd-meet/</guid>
-      <description>Registration link: bit.ly/hof-ghy-2ndmu-reg Hacktoberfest link: hacktoberfest.digitalocean.com/ Code of Conduct  The first meetup was a success, so we&amp;rsquo;re following up with another meetup on (26th October 2019, Saturday), will be posting a blogpost describing the first meeup very soon!
+      <description>Registration link: bit.ly/hof-ghy-2ndmu-reg Hacktoberfest link: hacktoberfest.digitalocean.com/ Code of Conduct  The first meetup was a success, so we&amp;rsquo;re following up with another meetup on (26th October 2019, Saturday) at GUIST, will be posting a blogpost describing the first meeup very soon!
 Hello everyone! 🎊 Welcome to the 2nd Meet of Hacktoberfest Guwahati. This page is dedicated for describing the agenda of the offline Hacktoberfest Guwahati meetup on 26th October (Saturday) to be organized at Institute of Science &amp;amp; Technology (GUIST), Guwahati.</description>
     </item>
     
