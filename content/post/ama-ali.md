@@ -25,7 +25,7 @@ AMA was conducted on 22nd October 2019 from 8-9PM.
 
 **P1:** *Where do you see tensorflow reaching within 2-3 years down the line?*
 
-**A:** With the realize of  TesnorFlow 2.0 it makes a lot of sense that Google is investing heavily and this time keeping community-centric. Also earlier the Usergroup's were not supported by Google now they have started supporting them. It has a list of features and realizes planned. You can follow the GitHub for the latest updates or be the part of TesnroFlow Google Group(open for all) to see the latest developments.
+**A:** With the release of  TensorFlow 2.0 it makes a lot of sense that Google is investing heavily and this time keeping community-centric. Also earlier the Usergroup's were not supported by Google now they have started supporting them. It has a list of features and realizes planned. You can follow the GitHub for the latest updates or be the part of TensorFlow Google Group(open for all) to see the latest developments.
 
 **P2:** *What are the best ways for one to learn tensorflow in India?*
 
@@ -64,7 +64,7 @@ AMA was conducted on 22nd October 2019 from 8-9PM.
 
 **P7:** *What do you think like why one should use the tf over pytorch?*
 
-**A:** I don't give priority to TF over Pytourch or vice-versa both have many advantages and disadvantages. Pytourch is good for research-based work but when I say taking your app to Market TesnroFlow is the king there.
+**A:** I don't give priority to TF over Pytorch or vice-versa both have many advantages and disadvantages. Pytorch is good for research-based work but when I say taking your app to Market TesnroFlow is the king there.
 
 **P7:** *What are your pro tips for the developers who want to become a speaker? Also, you may share with us any awesome TF project you have worked on!!*
 
@@ -81,4 +81,4 @@ With my network in India, we were able to lay the base for Crowdsourced communit
 **P9:** *When you talk about community crowdsourcing is it related to fundraising?*
 
 **A:** I am no longer part of the Google Crowdsource Team but continue to do Crowdsource 
-I'll be speaking at TesnorFlow.world on how We remove Bias in Machine Learning using Crowdsource in Santa Clara on Oct 29th https://www.youtube.com/watch?v=wwZKOmoNxMo Might help you understand it (feel free to skip first 5 mins after that main talk starts )
+I'll be speaking at TensorFlow.world on how We remove Bias in Machine Learning using Crowdsource in Santa Clara on Oct 29th https://www.youtube.com/watch?v=wwZKOmoNxMo Might help you understand it (feel free to skip first 5 mins after that main talk starts )
