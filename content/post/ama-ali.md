@@ -6,7 +6,7 @@ draft: false
 
 This year during [Hactoberfest](https://hacktoberfest.digitalocean.com/) we decided to run a month-long study group in the form a WhatsApp group. In which we also did few AMAs.
 
-The following is a trimmed and slightly reordered transcript of the AMA with Srijan Agarwal. If you want the full chatlog you can [access it here.](https://hacktoberfest.fossassam.tech/chatlog.txt)
+The following is a trimmed and slightly reordered transcript of the AMA with Ali. If you want the full chatlog you can [access it here.](https://hacktoberfest.fossassam.tech/chatlog.txt)
 
 About Ali,
 
