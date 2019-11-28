@@ -3,17 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/</loc>
-    <lastmod>2019-11-05T14:30:40+05:30</lastmod>
+    <loc>/post/ama-sayak/</loc>
+    <lastmod>2019-11-13T15:14:46+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/post/wrapping-hacktoberfest2019ghy/</loc>
-    <lastmod>2019-11-05T14:30:40+05:30</lastmod>
+    <loc>/</loc>
+    <lastmod>2019-11-13T15:14:46+05:30</lastmod>
   </url>
   
   <url>
     <loc>/post/</loc>
+    <lastmod>2019-11-13T15:14:46+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/ama-srijan/</loc>
+    <lastmod>2019-11-13T15:14:33+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/ama-ali/</loc>
+    <lastmod>2019-11-13T15:14:25+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/wrapping-hacktoberfest2019ghy/</loc>
     <lastmod>2019-11-05T14:30:40+05:30</lastmod>
   </url>
   
@@ -40,6 +55,11 @@
   <url>
     <loc>/post/tf-ghy/</loc>
     <lastmod>2019-09-07T16:59:21+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/poop/</loc>
+    <priority>0</priority>
   </url>
   
   <url>

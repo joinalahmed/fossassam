@@ -6,10 +6,46 @@
     <description>Recent content on FOSSAssam</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Nov 2019 14:30:40 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 13 Nov 2019 15:14:46 +0530</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>AMA with Sayak Paul - Hacktoberfest&#39;19</title>
+      <link>/post/ama-sayak/</link>
+      <pubDate>Wed, 13 Nov 2019 15:14:46 +0530</pubDate>
+      
+      <guid>/post/ama-sayak/</guid>
+      <description>This year during Hactoberfest we decided to run a month-long study group in the form a WhatsApp group. In which we also did a few AMAs.
+The following is a trimmed and slightly reordered transcript of the AMA with Sayak. If you want the full chatlog you can access it here.
+About Sayak,
+ Sayak is currently working with PyImageSearch, where he works on real-world deep learning problems. He was previously a data science instructor at DataCamp.</description>
+    </item>
+    
+    <item>
+      <title>AMA with Srijan Agarwal - Hacktoberfest&#39;19</title>
+      <link>/post/ama-srijan/</link>
+      <pubDate>Wed, 13 Nov 2019 15:14:33 +0530</pubDate>
+      
+      <guid>/post/ama-srijan/</guid>
+      <description>This year during Hactoberfest we decided to run a month-long study group in the form a WhatsApp group. In which we also did few AMAs.
+The following is a trimmed and slightly reordered transcript of the AMA with Srijan Agarwal. If you want the full chatlog you can access it here.
+About Srijan,
+ Srijan is currently the lead recruiting for Clarisights - an enterprise SaaS startup building a next-gen workspace for performance marketing teams.</description>
+    </item>
+    
+    <item>
+      <title>AMA with Ali Mustufa - Hacktoberfest&#39;19</title>
+      <link>/post/ama-ali/</link>
+      <pubDate>Wed, 13 Nov 2019 15:14:25 +0530</pubDate>
+      
+      <guid>/post/ama-ali/</guid>
+      <description>This year during Hactoberfest we decided to run a month-long study group in the form a WhatsApp group. In which we also did few AMAs.
+The following is a trimmed and slightly reordered transcript of the AMA with Ali. If you want the full chatlog you can access it here.
+About Ali,
+ Ali is the organizer of Tensorflow India Community. He&amp;rsquo;s also part of many community organizing groups and likes to interact with engineering students at large.</description>
+    </item>
     
     <item>
       <title>Making friends and OpenSource at Hacktoberfest 2019 Guwahati</title>
@@ -17,7 +53,7 @@
       <pubDate>Tue, 05 Nov 2019 14:30:40 +0530</pubDate>
       
       <guid>/post/wrapping-hacktoberfest2019ghy/</guid>
-      <description>Hacktoberfest was started by [Digital Ocean]() 3 years ago but it took a while for Guwahati to organize an offline event to promote opensource among students and professionals alike.
+      <description>Hacktoberfest was started by Digital Ocean 3 years ago but it took a while for Guwahati to organize an offline event to promote opensource among students and professionals alike.
 Nonetheless, it was finally attempted this year by a loose bunch of opensource enthusiasts, some of them happen to be part of the fossassam community, some are students, some are working but all are learners.
 The idea was to run a WhatsApp study group and organize two meetups.</description>
     </item>
@@ -74,6 +110,15 @@ The goal was to introduce newcomers to Machine Learning and Tensorflow and show 
  Hello everyone! 🎊 Good news for every computer science student and machine learning enthusiast in Guwahati. Very excited to announce that we&amp;rsquo;ll be organizing TensorFlow All Around in Guwahati.
 TensorFlow All Around is a global series of community-led events, where developers can learn the essentials and best practices of TensorFlow.
 Join us for the TensorFlow All-Around event and get hands-on experience with TensorFlow together! After this event you can keep developing your skills at home by completing all the recommended codelab, tutorials and videos.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/poop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/poop/</guid>
+      <description>asd</description>
     </item>
     
   </channel>
