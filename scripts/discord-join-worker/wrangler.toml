@@ -1,0 +1,6 @@
+name = "foss-assam-discord-join"
+type = "javascript"
+account_id = "fb3ce26765eb8f9bdcb81bf57247cb20"
+workers_dev = true
+route = ""
+zone_id = ""

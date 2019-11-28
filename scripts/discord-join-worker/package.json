@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "foss-assam-discord-join",
+  "version": "1.0.0",
+  "description": "Foss Assam Discord Joining Worker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'",
+    "build": "webpack index.js"
+  },
+  "author": "Hrishikesh Barman <hrishikeshbman@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}
