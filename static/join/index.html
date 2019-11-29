@@ -15,7 +15,11 @@
             </h1>
             <h2 class="f6 mid-gray lh-title">
                A friendly discord developer community, most of the developers are from Assam and nearby areas.
+               Join us for a good time :)
             </h2>
+            <div>
+               <a class="f6 link dim ph3 pv2 mb2 dib white bg-black" href="https://docs.google.com/document/d/1mFsGjDBy2ztd_gB_9XEN_xi56DOYAYRrxRzkDcdqSRs/edit?usp=sharing">Code of Conduct</a>
+            </div>
             <div id="notification" class="bg-washed-red pa2 dn"></div>
          </header>
          <div class="fn fl-ns w-50-ns">
@@ -91,7 +95,8 @@
               ghusername = document.getElementById("githubusername").value
               helptextemailEl = document.getElementById("email-desc")
               if (validateEmail(email)) {
-                sendDataToCFWorker(email,ghusername).then(function(resp){
+                  submitBtn.value = "..."
+                  sendDataToCFWorker(email,ghusername).then(function(resp){
                   // some ui changes
                   notifBox.classList.add("dn")
                   helptextemailEl.innerText = "Email is mandatory, as you'll be sending the invite to your mail."
