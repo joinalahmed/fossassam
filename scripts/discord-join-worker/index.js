@@ -6,39 +6,56 @@ const commonHeaders = { 'content-type': 'application/json;charset=UTF-8' }
 const sgToken = "<API_TOKEN>"
 const ghToken = "<API_TOKEN>"
 
+function addcors(r)  {
+  r.headers.set('Access-Control-Allow-Origin', '*')
+  r.headers.set("Access-Control-Allow-Methods", "POST","OPTIONS")
+  r.headers.set('Vary', 'Origin')
+  r.headers.set("Access-Control-Allow-Headers", "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With")
+  return r
+}
+
 /**
  * Respond with worker text
  * @param {Request} request
  */
 async function handleRequest(request) {
+  const url = new URL(request.url)
   let response
+  // Add CORS headers
+
+
   if (request.method === 'POST') {
     const body = await request.json()
-
     // validate body
     if (body.username == undefined || body.email == undefined ) {
       let err = { err: "Bad request" }
       response = new Response(JSON.stringify(err), { status: 400, headers: commonHeaders})
-      return response
+      return addcors(response)
     }
 
-    // GitHub repo-dispatch
-    await makeRepoDispatch(body)
-
-    // SendGrid email
-    await sendMail(body)
-
+    try {
+      // GitHub repo-dispatch
+      await makeRepoDispatch(body)
+      // SendGrid email
+      await sendMail(body)
+    } catch(e) {
+      response = new Response(JSON.stringify(`{"err":"${e.message}"}`), { status: 500, headers: commonHeaders})
+      return addcors(response)
+    }
+    // successful return
     response = new Response('{"body":"Registered."}', { status: 201, headers: commonHeaders})
+  } else if (request.method === 'OPTIONS') {
+    response = new Response(JSON.stringify(["OK"]), { status: 200, headers: commonHeaders})
   } else {
     let err = { err: "Expected POST" }
     response = new Response(JSON.stringify(err), { status: 405, headers: commonHeaders})
   }
-  return response
+
+  return addcors(response)
 }
 
 async function makeRepoDispatch(requestBody) {
   const ghRepo = "buildandtell/fossassam-public-members"
-  console.log(requestBody)
   const rawResponse = await fetch(`https://api.github.com/repos/${ghRepo}/dispatches`, {
     method: 'POST',
     headers: {
@@ -55,8 +72,9 @@ async function makeRepoDispatch(requestBody) {
      }
     })
   })
-  console.log(rawResponse.status)
-  console.log(rawResponse.statusText)
+  if (rawResponse.status !== 204){
+    throw "repository-dispatch event was not created"
+  }
 }
 
 async function sendMail(requestBody) {
@@ -86,6 +104,7 @@ Welcome you to a happy and friendly family! 🤩`
       }
     )
   })
-  console.log(rawResponse.status)
-  console.log(rawResponse.statusText)
+  if (rawResponse.status !== 202){
+    throw "email could not be sent"
+  }
 }

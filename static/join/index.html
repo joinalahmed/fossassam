@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>Join FossAssam Discord 👩‍💻 👨‍💻</title>
+      <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+   </head>
+   <body class="">
+      <article class="cf ph3 ph5-ns pv5">
+         <header class="fn fl-ns w-50-ns pr4-ns">
+            <h1 class="f3 lh-title fw9 mb3 mt0 pt3 bt bw2">
+               FossAssam Discord Group
+            </h1>
+            <h2 class="f6 mid-gray lh-title">
+               A friendly discord developer community, most of the developers are from Assam and nearby areas.
+            </h2>
+            <div id="notification" class="bg-washed-red pa2 dn"></div>
+         </header>
+         <div class="fn fl-ns w-50-ns">
+            <form class="measure" id="join-form">
+               <fieldset id="sign_up" class="ba b--transparent ph0 mh0">
+                  <legend class="f4 fw6 pt3 pt0-ns ph0 mh0">Get Invitation Link</legend>
+                  <div class="mt3">
+                     <label class="db fw6 lh-copy f6" for="email-address">Email</label>
+                     <input class="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="email" name="email-address"  id="email-address">
+                     <small id="email-desc" class="f6 pt2 black-60 db mb2">Email is mandatory, as you'll be sending the invite to your mail.</small>
+                  </div>
+                  <div class="mv3">
+                     <label class="db fw6 lh-copy f6" for="githubusername">GitHub username</label>
+                     <input class="b pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="text" name="githubusername"  id="githubusername">
+                     <small id="githubusername-desc" class="f6 pt2 black-60 db mb2">If you don't have a GitHub account, you can leave this blank.</small>
+                  </div>
+               </fieldset>
+               <div class="">
+                  <input id="form-submit-btn" class="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib" type="submit" value="Get Invite">
+               </div>
+               <div class="lh-copy mt3">
+                  <p href="#0" class="f6 link dim black db"><b>Important:</b>
+                     The email will probably go to your Updates tab if you're using Gmail,
+                     make sure you check your spam box if you don't see the invitation.
+                     If you still don't get the invitation, send us a mail at fossassam@gmail.com
+                  </p>
+               </div>
+            </form>
+         </div>
+      </article>
+      <script type="text/javascript">
+
+         // Validate email address
+         function validateEmail(email) {
+            var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            return re.test(String(email).toLowerCase());
+         }
+
+         // Send data to cloudflare worker
+         // returns a promise
+         function sendDataToCFWorker(email,username){
+            return fetch('https://discord-join.fossassam.workers.dev',{
+              method: 'POST',
+              headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json',
+              },
+              body: JSON.stringify({ username: username, email: email })
+            }).then(
+                function(response) {
+                  if (response.status !== 201) {
+                    console.log('Looks like there was a problem. Status Code: ' + response.status);
+                    return false;
+                  }
+                  return true
+                }
+            ).catch(function(err) {
+                return false;
+            })
+         }
+
+         // Autorun
+         function autorun()
+         {
+            // get some stuff
+            submitBtn = document.getElementById("form-submit-btn")
+            notifBox = document.getElementById("notification")
+
+            // action time
+            submitBtn.addEventListener("click", function(event){
+              event.preventDefault()
+              email = document.getElementById("email-address").value
+              ghusername = document.getElementById("githubusername").value
+              helptextemailEl = document.getElementById("email-desc")
+              if (validateEmail(email)) {
+                sendDataToCFWorker(email,ghusername).then(function(resp){
+                  // some ui changes
+                  notifBox.classList.add("dn")
+                  helptextemailEl.innerText = "Email is mandatory, as you'll be sending the invite to your mail."
+                  submitBtn.value = "Check your mail!"
+                  submitBtn.classList.add("bg-yellow")
+                  notifBox.classList.add("dn")
+                }).catch(function(err){
+                  helptextemailEl.innerText = "Email is mandatory, as you'll be sending the invite to your mail."
+                  notifBox.innerText = "There was some error generating the invite link, please try again."
+                  notifBox.classList.remove("dn")
+                })
+              } else {
+                helptextemailEl.innerText = "Please enter correct email address."
+              }
+            })
+         }
+         if (document.addEventListener) document.addEventListener("DOMContentLoaded", autorun, false);
+         else if (document.attachEvent) document.attachEvent("onreadystatechange", autorun);
+         else window.onload = autorun;
+      </script>
+   </body>
+</html>
+
